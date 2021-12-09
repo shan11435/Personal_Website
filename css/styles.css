@@ -1,0 +1,40 @@
+  body {
+    background-color: #3F72AF;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 10%;
+  }
+
+  h1 {
+    color: #99FEFF;
+  }
+
+  h2 {
+    color: #99FEFF;
+    text-align: center;
+  }
+
+  h3 {
+    color: #99FEFF;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  li {
+    font-size: 30px;
+    font-weight: bold;
+    color: #99FEFF;
+  }
+
+  .form-center {
+    display: flex;
+    justify-content: center;
+  }
