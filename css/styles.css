@@ -1,5 +1,6 @@
   body {
-    background-color: #3F72AF;
+    background-color: #C8D9EB;
+    margin: 0;
   }
 
   hr {
@@ -10,19 +11,6 @@
     width: 10%;
   }
 
-  h1 {
-    color: #99FEFF;
-  }
-
-  h2 {
-    color: #99FEFF;
-    text-align: center;
-  }
-
-  h3 {
-    color: #99FEFF;
-  }
-
   img {
     width: 200px;
     height: 200px;
@@ -31,10 +19,74 @@
   li {
     font-size: 30px;
     font-weight: bold;
-    color: #99FEFF;
+
   }
 
   .form-center {
-    display: flex;
-    justify-content: center;
+    display:inline-block;
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    background-color: #F5F5F5;
+  }
+
+  .form-heading {
+    color: black;
+  }
+
+  .header-home {
+    background-color: #04293A;
+    display: block;
+    height: 50px;
+  }
+
+  .home-page-headers {
+    margin-left: 1%;
+  }
+
+  .contact {
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    right: 300px;
+  }
+
+  .education {
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    right: 25px;
+  }
+
+  .hobbies {
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    right: 175px;
+  }
+
+  .home-page-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #F05454;
+  }
+
+  .hobbies-home-page-button{
+    color: #F05454;
+    margin-left: 420px;
+    font-size: 20px;
+  }
+
+  .education-home-page-button{
+    color: #F05454;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
   }
