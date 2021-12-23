@@ -79,8 +79,8 @@
 
   .hobbies-home-page-button{
     color: #F05454;
-    margin-left: 420px;
     font-size: 20px;
+    position: absolute;
   }
 
   .education-home-page-button{
@@ -89,4 +89,9 @@
     bottom: 20px;
     right: 20px;
     font-size: 20px;
+  }
+
+  .hobbies-home-page {
+    display: block;
+
   }
