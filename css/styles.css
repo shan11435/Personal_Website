@@ -52,6 +52,8 @@
     font-size: 30px;
     color: #F5F5F5;
     position: absolute;
+    text-decoration: inherit;
+    top: 5px;
     right: 300px;
   }
 
@@ -59,14 +61,18 @@
     font-size: 30px;
     color: #F5F5F5;
     position: absolute;
+    text-decoration: inherit;
     right: 25px;
+    top: 5px;
   }
 
   .hobbies {
     font-size: 30px;
     color: #F5F5F5;
     position: absolute;
+    text-decoration: inherit;
     right: 175px;
+    top: 5px;
   }
 
   .home-page-button {
